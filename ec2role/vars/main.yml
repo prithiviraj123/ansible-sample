@@ -1,0 +1,24 @@
+---
+# vars file for ec2role
+regions: ap-south-1
+zone: ap-south-1a
+
+key_name: ans-key
+
+instance_type: t2.micro
+
+vpc_name: ans-vpc
+subnet_name: ans-subnet
+internet_gateway: ans-ig
+route_table_name: aws-routetable
+security_group_name: aws-securitygroup
+
+state: present
+
+vpcCidrBlock: '10.0.0.0/16'
+subNetCidrBlock: '10.0.1.0/24'
+port22CidrBlock: '0.0.0.0/0'
+destinationCidrBlock: '0.0.0.0/0'
+
+image_id: ami-02d55cb47e83a99a0
+
