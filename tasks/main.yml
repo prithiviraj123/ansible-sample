@@ -1,9 +1,0 @@
----
-# tasks file for ec2role
- - import_tasks: keyfile.yml
- - import_tasks: vpc.yml
- - import_tasks: igw.yml
- - import_tasks: subnet.yml
- - import_tasks: routetable.yml
- - import_tasks: securitygroup.yml
- - import_tasks: ec2.yml
