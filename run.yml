@@ -1,0 +1,4 @@
+- name: to run ec2-role 
+  hosts: localhost
+  roles:
+    - ec2-role
