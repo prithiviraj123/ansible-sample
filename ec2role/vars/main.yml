@@ -3,7 +3,7 @@
 regions: ap-south-1
 zone: ap-south-1a
 
-key_name: ans-key
+key_name: ansi-key
 
 instance_type: t2.micro
 
