@@ -16,7 +16,3 @@
   register: security_group_results
 
 
-- name:
-  debug:
-    msg: security {{ security_group_results.group_id }}
-
