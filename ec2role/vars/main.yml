@@ -1,7 +1,7 @@
 ---
 # vars file for ec2role
-regions: ap-south-1
-zone: ap-south-1a
+regions: us-east-1
+zone: us-east-1a
 
 key_name: ansible1-key
 
