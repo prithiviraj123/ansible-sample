@@ -20,5 +20,5 @@ subNetCidrBlock: '10.0.1.0/24'
 port22CidrBlock: '0.0.0.0/0'
 destinationCidrBlock: '0.0.0.0/0'
 
-image_id: ami-02d55cb47e83a99a0
+image_id:  ami-03b8a287edc0c1253
 
