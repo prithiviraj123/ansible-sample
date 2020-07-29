@@ -3,7 +3,7 @@
 regions: ap-south-1
 zone: ap-south-1a
 
-key_name: ansi-key
+key_name: ansible1-key
 
 instance_type: t2.micro
 
