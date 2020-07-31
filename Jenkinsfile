@@ -14,12 +14,6 @@ pipeline {
            sh 'ansible --version'
          }
          }
-      stage('AWS connectivity') {
-         steps {
-           echo 'git clone'
-           sh 'aws s3 ls'
-          }
-          }
       stage('Role Syntax') {
          steps {
            echo 'git clone'
