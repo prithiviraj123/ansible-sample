@@ -8,7 +8,13 @@ pipeline {
            git 'https://github.com/prithiviraj123/ansible-sample.git'
            }
            }
-           
+           stages {
+             stage('git clone') {
+                steps {
+                  echo 'git clone'
+                  git 'https://github.com/dineshSOSU/devops-react-3.git'
+                 }
+                 }
       stage('Ansible version') {
          steps {
            echo 'git clone'
